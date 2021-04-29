@@ -4,7 +4,7 @@ import initSr from "./js/sr";
 import resume from "./assets/resume.pdf";
 import "./style/main.scss";
 import MyCanvas from  "./js/canvas"
-
+import canvasColor from "./js/canvasColor"
 $('a[href^="#"]').on("click", function (event) {
   var target = $(this.getAttribute("href"));
   if (target.length) {
@@ -26,6 +26,7 @@ function addResume(pdf) {
 }
 
 MyCanvas();
+canvasColor();
 initSr();
 initTilt();
 // uncomment this if you want to attach your resume
