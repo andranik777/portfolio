@@ -1,5 +1,6 @@
 import {TweenLite,Circ} from 'gsap'
-(function() {
+
+const MyCanvas = () => { (function() {
 
     var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
 
@@ -185,3 +186,6 @@ import {TweenLite,Circ} from 'gsap'
     }
     
 })();
+}
+
+export default MyCanvas

@@ -3,7 +3,7 @@ import initTilt from "./js/tilt";
 import initSr from "./js/sr";
 import resume from "./assets/resume.pdf";
 import "./style/main.scss";
-import canvas from  "./js/canvas"
+import MyCanvas from  "./js/canvas"
 
 $('a[href^="#"]').on("click", function (event) {
   var target = $(this.getAttribute("href"));
@@ -25,7 +25,7 @@ function addResume(pdf) {
   resumeButton.setAttribute("href", pdf);
 }
 
-canvas();
+MyCanvas();
 initSr();
 initTilt();
 // uncomment this if you want to attach your resume
