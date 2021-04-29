@@ -24,9 +24,22 @@
 @media (min-width: 992px) { 
     h1 {
         font-size: 24px !important;
-      } 
-      .d-flex.justify-content-center {
+        } 
+        .d-flex.justify-content-center {
         margin-bottom: 40px !important;
-      }
+    }
 
-     }
+}
+
+@media (max-width: 576px) { 
+    .btn-header {
+        display: block !important;
+        }
+        .cta-btn.cta-btn--hero {
+            width: 177px;
+        }
+        .canvas-btn {
+            margin-right: 0px !important;
+            margin-left: 0px  !important;
+        }
+ }
