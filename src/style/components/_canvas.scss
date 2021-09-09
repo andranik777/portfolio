@@ -169,10 +169,55 @@ $cut: 550px;
         }
     }
   }
-  
+
+  .skils{
+    background-color: #202020;
+    color: white;
+    width: 21rem;
+    text-align: center;
+    border-radius: 3rem;
+    position: relative;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 8px;
+    &-interface{
+      padding: 0;
+      display: flex;
+      justify-content: start;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+  }
+.competence p {
+  width: 100%;
+}
+  .round-green {
+    border-radius: 20px;
+    background: green;
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    left: 1rem;
+    top: 24%;
+  }
 
 
-  // Medium devices (tablets, 768px and up)
+
+.repo {
+  box-shadow: 4px 3px 8px 0 #24222238;
+  background-color: #2a2a72;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  font-size: 1.7rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+
+// Medium devices (tablets, 768px and up)
   //@media (min-width: 768px) { ... }
   
   // Large devices (desktops, 992px and up)

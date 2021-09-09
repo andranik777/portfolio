@@ -4,5 +4,11 @@
   //height: 800px;
   padding: 0px;
   margin: 0px;
+  height: 25rem;
 }
+@media (max-width: 1150px) {
+  #gradient{
+    height:15rem;
+  }
 
+}
